@@ -1,0 +1,35 @@
+---
+title: "607 Assignment 1"
+format: html
+editor: visual
+---
+
+## Approach:
+
+I've looked up data-sets on Kaggle, downloaded the dataset of choice ("<https://www.kaggle.com/datasets/elizabethearhart/billboard-hot-1001958-2024/data>") and uploaded to a git repository ("<https://github.com/ifi-ony/607_Assignment_1>") to make the data easily accessible within the qmd document. Data is originally from the UT-Austin School of Journalism and Media.
+
+### \[TO DO\]
+
+Assign the data-set to a variable and use the filter command and gt package to create a table containing only the first 10 observation and the first 4 variables/fields. I will add sections for responses to the following:
+
+-   Why did I choose this data-set?
+
+-   What can I glean from this data-set?
+
+-   What would I change?
+
+### Stretch Goals
+
+-   LLM Prompt: "What other public data-sets can I access to get the same or similar information?"
+
+-   Create a table of the top Artist from every year and filter for the first 5 entries.
+
+-   Bar chart/Scatter plot of Artist/Year vs Number of Weeks on Chart (for Number 1 artist) or
+
+Load the database and preview.
+
+```{r}
+hot_100_data <- read.csv("https://raw.githubusercontent.com/ifi-ony/607_Assignment_1/refs/heads/main/hot-100-current.csv")
+
+head(hot_100_data, n = 5)
+```
