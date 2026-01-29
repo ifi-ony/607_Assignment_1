@@ -8,7 +8,7 @@ editor: visual
 
 I've looked up data-sets on Kaggle, downloaded the dataset of choice ("<https://www.kaggle.com/datasets/elizabethearhart/billboard-hot-1001958-2024/data>") and uploaded to a git repository ("<https://github.com/ifi-ony/607_Assignment_1>") to make the data easily accessible within the qmd document. Data is originally from the UT-Austin School of Journalism and Media.
 
-I chose the data-set because I find trends in popular music consumption to be interesting. The data-set has enough variables to perform an analysis but has enough missing (e.g genre, sales, e.t.c) that I can practice learned data management techniques in the process of creating a more complete data-set later.  
+The data-set contains the Billboard 100 songs and artists from 1958 to 2024. I chose the data-set because I find trends in popular music consumption to be interesting.  The data-set has enough variables to perform an analysis but has enough missing (e.g genre, sales, e.t.c) that I can practice learned data management techniques in the process of creating a more complete data-set later.  
 
 
 ### \[TO DO\]
